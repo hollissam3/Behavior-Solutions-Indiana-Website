@@ -23,14 +23,14 @@ header {
 }
 
 /* nav background on mobile */
-/*nav {
-  background: #599a68;
-}*/
+nav {
+  background: darken($blue, 10%);
+}
 
 /* links */
-/*a {
-  color: #6ab47b;
-}*/
+a {
+  color: lighten($blue, 10%);
+}
 
 /* nav link */
 nav a, nav a:visited {
@@ -39,5 +39,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: darken($blue, 20%);
+  color: darken($blue, 25%);
 }
