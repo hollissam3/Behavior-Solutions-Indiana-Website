@@ -17,12 +17,13 @@ select {
   margin: 0;
   outline: 0;
   padding: 15px;
-  width: 25%;
+  width: 200px;
   background-color: #e8eeef;
   color: #8a97a0;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   margin-bottom: 30px;
   display: block;
+  border-radius: 5px;
 }
 
 textarea {
@@ -43,12 +44,24 @@ button {
   text-align: center;
   font-style: normal;
   border-radius: 5px;
-  width: 103.5%;
+  width: 95%;
   border: 1px solid darken($blue, 10%);
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 form {
   margin-top: 50px;
+}
+
+@media screen and (max-width: 370px) {
+
+  /* Adjust form on smaller widths */
+
+  textarea {
+    width: 90%;
+  }
 }

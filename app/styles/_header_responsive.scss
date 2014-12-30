@@ -38,3 +38,16 @@
     height: 100px;
   }
 }
+
+@media screen and (max-width: 370px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+
+  nav ul li:nth-child(4) {
+    margin-left: 0;
+    margin-right: 4%;
+    margin-top: 5px;
+  }
+}
