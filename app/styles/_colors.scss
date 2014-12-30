@@ -1,0 +1,43 @@
+/**********************************
+COLORS
+***********************************/
+
+$green: #8aca35;
+$blue: #21aedc;
+$purple: #682e85;
+
+/* site body */
+body {
+  background-color: #fff;
+  /*color: #999;*/
+}
+
+/* green header */
+/*header {
+  background: #6ab47b;
+  border-color: #599a68;
+}*/
+
+header {
+	background: $blue;
+}
+
+/* nav background on mobile */
+/*nav {
+  background: #599a68;
+}*/
+
+/* links */
+/*a {
+  color: #6ab47b;
+}*/
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: darken($blue, 20%);
+}
