@@ -60,7 +60,7 @@ nav li {
 
 nav a {
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 15px 8px;
 }
 
 /**********************************
@@ -73,4 +73,19 @@ footer {
   clear: both;
   padding-top: 50px;
   color: darken(#ccc, 20%);
+}
+
+/**********************************
+Page: About
+***********************************/
+
+#boy-img, #baby-img {
+  margin: 2% auto 2% auto;
+  display: block;
+  border-radius: 25px;
+  height: 200px;
+}
+
+#child-first {
+  text-align: center;
 }
