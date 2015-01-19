@@ -7,35 +7,35 @@
     background: none;
     float: right;
     font-size: 1.125em;
-    margin-right: 5%;
-    margin: 2%;
   }
   
   #logo {
     float: left;
-    margin-left: 5%;
   }
-  
+
   header {
     border-bottom: 5px solid darken($blue, 10%);
     margin-bottom: 60px;
   }
-  
+
+  #header-wrap {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    overflow: auto;
+  }
 }
 
-@media screen and (min-width: 1368px) {
+@media screen and (max-width: 940px) {
 
   /**********************************
   HEADER
   ***********************************/
 
-  nav {
-    margin: 3%;
-  }
-
-  #logo {
-    margin: 1.5%;
-    height: 100px;
+  #header-wrap {
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
 
