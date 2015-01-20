@@ -9,14 +9,7 @@ $purple: #682e85;
 /* site body */
 body {
   background-color: #fff;
-  /*color: #999;*/
 }
-
-/* green header */
-/*header {
-  background: #6ab47b;
-  border-color: #599a68;
-}*/
 
 header {
 	background: $blue;
@@ -27,17 +20,46 @@ nav {
   background: darken($blue, 10%);
 }
 
+/* footer */
+footer {
+	// background-color: #434343;
+  background-color: darken($blue, 10%);
+  color: #fff;
+
+  a {
+    color: inherit;
+    transition: color 0.5s;
+
+    &:hover {
+      color: darken(#fff, 15%);
+      transition: color 0.5s;
+    }
+  }
+}
+
 /* links */
 a {
   color: lighten($blue, 10%);
+  transition: color 0.5s;
+
+  &:hover {
+    color: darken($blue, 10%);
+    transition: color 0.5s;
+  }
 }
 
 /* nav link */
 nav a, nav a:visited {
   color: #fff;
+  transition: color 0.5s;
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover {
+nav a.selected {
   color: darken($blue, 25%);
+}
+
+nav a:hover {
+  color: darken($blue, 15%);
+  transition: color 0.5s;
 }
