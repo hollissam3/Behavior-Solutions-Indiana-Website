@@ -12,14 +12,18 @@ main {
   margin: 0 auto;
   padding: 0 5%;
   overflow: auto;
-  padding-bottom: 13.3%;
+  padding-bottom: 13.5%;
 
-  @media screen and (max-width: 720px) {
+  @media screen and (max-width: 800px) {
     padding-bottom: 20%;
   }
 
   @media screen and (max-width: 450px) {
     padding-bottom: 40%;
+  }
+
+  @media screen and (max-width: 350px) {
+    padding-bottom: 45%;
   }
 }
 

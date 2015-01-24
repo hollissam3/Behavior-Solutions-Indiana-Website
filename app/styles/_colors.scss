@@ -8,7 +8,7 @@ $purple: #682e85;
 
 /* site body */
 body {
-  background-color: #fff;
+  background-color: darken(#fff, 5%);
 }
 
 header {
@@ -18,6 +18,10 @@ header {
 /* nav background on mobile */
 nav {
   background: darken($blue, 10%);
+}
+
+h1 {
+  color: $purple;
 }
 
 /* footer */
