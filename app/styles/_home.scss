@@ -1,0 +1,20 @@
+#maps-frame {
+	float: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	@media screen and (max-width: 800px) {
+		display: none;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+}
+
+ul#locations {
+	float: left;
+	padding-top: 10%;
+
+	@media screen and (max-width: 800px) {
+		padding-top: 0;
+	}
+}
