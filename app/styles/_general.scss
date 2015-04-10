@@ -12,10 +12,14 @@ main {
   margin: 0 auto;
   padding: 0 5%;
   overflow: auto;
-  padding-bottom: 13.5%;
+  padding-bottom: 20%;
+
+  @media screen and (max-width: 1060px) {
+    padding-bottom: 30%;
+  }
 
   @media screen and (max-width: 800px) {
-    padding-bottom: 35%;
+    padding-bottom: 25%;
   }
 
   @media screen and (max-width: 450px) {
@@ -110,8 +114,8 @@ footer {
 Page: About
 ***********************************/
 
-#boy-img, #baby-img {
-  margin: 2% auto 2% auto;
+#boy-img {
+  margin: 2% auto;
   display: block;
   border-radius: 25px;
   height: 200px;
@@ -125,4 +129,33 @@ Page: About
 
 #child-first {
   text-align: center;
+}
+
+/**********************************
+Page: FAQs
+***********************************/
+
+#boy-therapy {
+  border-radius: 25px;
+  height: 265px;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+
+  @media screen and (max-width: 600px) {
+    height: 172px;
+    width: 300px;
+  }
+}
+
+/**********************************
+Page: Services
+***********************************/
+
+#girl-img {
+  border-radius: 25px;
+  height: 400px;
+  width: 265px;
+  display: block;
+  margin: 0 auto;
 }
